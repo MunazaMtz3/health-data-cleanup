@@ -11,7 +11,7 @@ Simulates real-world Health IT data cleanup work — EHR systems frequently
 export malformed or incomplete data that must be validated before import,
 reporting, or sharing with payers.
 
-Author: [Your Name]
+Author: Munaza Mumtaz
 """
 
 import csv
