@@ -1,0 +1,58 @@
+=================================================================
+  EHR DATA QUALITY AUDIT REPORT
+  Generated: 2026-04-01 19:20:43
+=================================================================
+
+SUMMARY
+----------------------------------------
+  Total records processed : 15
+  Clean records           : 5
+  Records with issues     : 10
+  Critical issues         : 4
+  Warnings                : 6
+  Informational           : 0
+
+SEVERITY GUIDE
+----------------------------------------
+  CRITICAL — Record cannot be safely imported or used
+             (missing name, invalid DOB, invalid state)
+  WARNING  — Record usable but requires follow-up
+             (missing email, bad phone format, no policy #)
+  INFO     — Minor gap, low priority
+
+ISSUES BY PATIENT RECORD
+----------------------------------------
+
+Patient P004
+  [WARNING] email: Missing email address
+
+Patient P007 *** CRITICAL ***
+  [CRITICAL] last_name: Missing last name
+
+Patient P008 *** CRITICAL ***
+  [CRITICAL] date_of_birth: Date of birth is in the future
+
+Patient P009
+  [WARNING] gender: Non-standard value: 'Unknown' — expected one of {'Female', 'Non-binary', 'Prefer not to say', 'Male'}
+
+Patient P010
+  [WARNING] email: Invalid format: 'mariagarcia'
+
+Patient P011
+  [WARNING] insurance_policy_no: Missing insurance policy number — required for billing
+
+Patient P012
+  [WARNING] zip_code: Invalid ZIP format: '2015'
+
+Patient P013
+  [WARNING] phone: Missing phone number
+
+Patient P014 *** CRITICAL ***
+  [CRITICAL] state: Invalid state code: 'XX'
+
+Patient P015 *** CRITICAL ***
+  [CRITICAL] date_of_birth: Birth year 1802 is before 1900
+
+=================================================================
+END OF REPORT
+=================================================================
