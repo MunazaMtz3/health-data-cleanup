@@ -1,0 +1,16 @@
+patient_id,first_name,last_name,date_of_birth,gender,phone,email,insurance_provider,insurance_policy_no,state,zip_code
+P001,Michael,Torres,1985-03-12,Male,703-555-1001,mtorres@email.com,Blue Cross Blue Shield,BCBS-001-2024,VA,22030
+P002,Jennifer,Wallace,1992-07-28,Female,571-555-2001,jwallace@email.com,Aetna,AET-002-2024,VA,20190
+P003,David,Kim,1978-11-04,Male,7035553001,dkim@email.com,UnitedHealthcare,UHC-003-2024,VA,22301
+P004,Priya,Sharma,2015-05-19,Female,571-555-4001,,Cigna,CIG-004-2024,VA,22150
+P005,Carlos,Mendez,1960-09-30,Male,703-555-5001,cmendez@email.com,Medicare,MED-005-2024,VA,20170
+P006,Aisha,Johnson,1999-01-15,Female,571-555-6001,ajohnson@email.com,Medicaid,MCD-006-2024,VA,20147
+P007,Robert,,1988-06-22,Male,703-555-7001,rbrown@email.com,Blue Cross Blue Shield,BCBS-007-2024,VA,22030
+P008,Linda,Patel,2045-03-10,Female,571-555-8001,lpatel@email.com,Aetna,AET-008-2024,VA,20190
+P009,James,Wilson,1975-12-01,Unknown,703-555-9001,jwilson@email.com,UnitedHealthcare,UHC-009-2024,MD,20901
+P010,Maria,Garcia,1990-04-15,Female,571-555-0001,mariagarcia,Cigna,CIG-010-2024,VA,22150
+P011,Kevin,Lee,1983-09-28,Male,703-555-1101,klee@email.com,Medicare,,VA,22301
+P012,Sandra,Brown,1967-02-14,Female,571-555-1201,sbrown@email.com,Medicaid,MCD-012-2024,VA,2015
+P013,Thomas,Davis,1995-08-30,Male,,tdavis@email.com,Blue Cross Blue Shield,BCBS-013-2024,VA,22030
+P014,Angela,Martinez,1959-11-20,Female,703-555-1401,amartinez@email.com,Aetna,AET-014-2024,XX,20190
+P015,Brian,Taylor,1802-07-04,Male,571-555-1501,btaylor@email.com,UnitedHealthcare,UHC-015-2024,VA,20147
